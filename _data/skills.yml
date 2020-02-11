@@ -1,12 +1,18 @@
 # Skills
 # Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+- skill: ruby / rails
+  description: 熟悉 ruby 元编程 ，rails 常见gem kaminari ,ransack , karafka , sidekiq , knock , actioncable
 
 # Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: python / django
+  description: django 能够快速开发后端管理模块
 
 # Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: openstack / opennebula / k8s
+  description: 安装，高可用， 常见问题维护 
+
+- skill: nginx/zabbix/mysql/neo4j/tomcat/kafka
+  description: 安装维护，高可用
+
+- skill: vue
+  description: elm vue-admin-template 画出简单的页面

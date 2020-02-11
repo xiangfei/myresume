@@ -3,39 +3,46 @@
 - company:  浙江公众信息
   position: 运维开发
   duration: 2018-07 &mdash; Now
-  summary: 维护公司的open stack, opennebula 环境. ,开发监控平台,自动化运维平台 <ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+  summary: 维护公司的open stack, opennebula 环境. ,开发监控平台,自动化运维,自动化测试平台 <ul class="resume-item-list"><li>openstack opennebula 调整为高可用</li><li>openstack vip bug修改(解决vip突然挂掉的问题)</li><li>kvm 优化,增加windows image</li><li>自动化运维平台微服务支持,增加服务注册,发现,配置下发,负载均衡</li><li>自动化测试平台开发,API, GUI ,spirent 设备接口</li><li>监控平台开发,动态下发任务,执行接口放入kafka</li><li>ruby 培训 https://xiangfei.github.io/ruby_traing/</li></ul>
 
 # Director of Digital Stratgy
 - company: 金诚集团
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+  position: 运维开发
+  duration:  2018-04 &mdash; 2018-07
+  summary: 开发运维平台一期前后台分离，后端使用django restframework。实现项目发布 <ul class="resume-item-list"><li>自动化运维平台设计。公共方法提取。统一增删改查，分页，权限，认证</li><li>统一封装后端task接口</li><li>集成阿里云接口对接(虚拟机管理)</li><li>k8s api 实现k8s部署</li></ul>
+
+
 
 
 # Communications Coordinator
 - company: jollychic
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+  position: 系统运维
+  duration:   2017-04  &mdash; 2018-04
+  summary: 维护测试，预防环境，完善流程<ul class="resume-item-list"><li>日常发布</li><li>改进发布流程，一个应用部署一个虚拟机，增加并发测试支持</li><li>安装opennebula,公司资源不够，cpu ，内存overcommit ，disk ，网络io限速。虚拟机监控，权限调整。网络使用openvswitch vxlan 多租户网络隔离，解决网卡重启流表消失</li><li>写一个发版工具，主要思路登陆机器，直接执行shell脚本，权限直接使用django guardin，realtime data 使用celery</li><li>脚本优化，解决不同版本执行冲突</li><li>装k8s</li><li>kuryr-kubernetes集成 k8s和openstack，测试容器和虚拟机使用相同的网络（只在测试环境使用)</li><li>confd + zookeeper 配置文件统一管理</li></ul>
+
+
+
 
 
 - company: 陆金所
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+  position: 运维开发
+  duration:   2015-11  &mdash; 2017-03
+  summary: IAAS自动化平台开发， 容量平台开发， gtm开发  <ul class="resume-item-list"><li>安装openstack</li><li>责nova 模块。网络使用cisco aci</li><li>网络容量监控，对接solarwinds</li><li>cmdb开发</li><li>接f5，ip封堵</li></ul>
+
 
 - company: 快钱支付
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+  position: 运维开发
+  duration:   2015-03  &mdash; 2015-11
+  summary: 工程化平台（java 开发，使用springMVC + ibatis + jquery + freemarker） <ul class="resume-item-list"><li>日常发布值班</li><li>完善发布流程</li><li>docker部署应用</li><li>PL ，ITSM，JIRA， 测试平台对接 （PL轮询数据库， itsm，JIRA，测试使用webservice 主要用到xfire),使用zookeeper存储properties</li><li>加android 发布管理</li><li>监控发布状态</li><li>限管理，增加 跨部门权限申请，审批。</li></ul>
+
 
 - company: Nokia
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+  position: SCM
+  duration:   2013-02  &mdash; 2015-02
+  summary: 发包平台的2次开发及维护 (平台主要是用django + jinja2 + bootstrap + postgres),进编译脚本，CI 脚本，提高编译时间,责平台和其他模块对接 <ul class="resume-item-list"><li>重写版本控制代码,实现自动更新。<ul class="resume-item-list"><li> 自动创建新的产品并接入发包平台，jenkins</li> <li> 增加patch 发布功能</li><li> 集成jira实现需求自动管理 变更管理(app, sql ,mq,others) 开发提交-＞项目经理审批-＞自动处理（不能自动处理的,需要手动在平台操作，记录手动处理的状态,并创>建需求准备以后实现自动化）</li> <li> metrics 增加 开发代码编译次数，错误，统计，并用报表展示</li></ul><li>平台性能优化 主要负责编译模块的优化(使用增量编译，shared-cache)， <ul class="resume-item-list"><li>编译环境的迁移（向AWS cloud迁移，无限制使用编译机器）</li><li>jenkins优化（搭建slave master，改进插件，）保障平台运行稳定,使用gradle 替换maven</li></ul></li><li>改进 EC2 插件，公司使用的私有云，需要增加新的认证token</li><li>QFT 脚本维护</li><li>新ci的迁移</li></ul>
 
 
 - company: 新彩软件
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+  position: JAVA 开发
+  duration:   2000-06  &mdash; 2013-02
+  summary: 自服务平台,渠道管理平台开发，使用springMVC + freemarker + jpa + jquery <ul class="resume-item-list"><li>负责前台，DNS 模块</li><li>购彩模块</li><li>渠道认证，证书管理</li> </ul>
