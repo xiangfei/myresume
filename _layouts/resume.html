@@ -40,7 +40,7 @@
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
+        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">邮件</a>
         {% elsif site.resume_looking_for_work == 'no' %}
         <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
         {% else %}
@@ -53,7 +53,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Experience</h2>
+          <h2>工作经验</h2>
         </header>
 
         {% for job in site.data.experience %}
@@ -73,7 +73,7 @@
       <!-- begin Education -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Education</h2>
+          <h2>教育</h2>
         </header>
 
         {% for education in site.data.education %}
@@ -101,7 +101,7 @@
       <!-- begin Projects -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Projects</h2>
+          <h2>项目</h2>
         </header>
 
         {% for project in site.data.projects %}
@@ -122,7 +122,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>技能</h2>
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
@@ -180,7 +180,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Outside Interests</h2>
+          <h2>爱好</h2>
         </header>
 
         <div class="resume-item">
@@ -200,7 +200,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Additional Links</h2>
+          <h2>链接</h2>
         </header>
 
         <div class="resume-item">
@@ -232,8 +232,8 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line">Made by <a href="https://xiangfei.github.io">@xiangfei</a>. Fork me on <a href="https://github.com/xiangfei">GitHub</a>.</p>
+        <!--p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p-->
       </footer>
 
     </div>
