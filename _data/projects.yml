@@ -6,8 +6,7 @@
   company: "公众信息"
   role: 前后台开发
   duration: 2018-12 &mdash; 2020-09
-  # url: "#"
-  description: V1版本主要功能: 项目管理,服务管理,项目部署,web interface , seleniumcase , case管理,设备测试 , 用例执行,定时任务, V2版本 重构用例执行方式, 边缘节点设计,代理机器执行,消息中断处理。
+  description: V1 项目管理,服务管理,项目部署,web interface , seleniumcase , case管理,设备测试 , 用例执行,定时任务, V2 重构用例执行方式, 边缘节点设计,代理机器执行,消息中断处理。
 
 # Springfield Community Outreach Group
 - project: 自动化运维
@@ -20,7 +19,7 @@
   company: "公众信息"
   role: 后台开发
   duration: 2019-07 &mdash; Now
-  description: client 任务, collect 任务 , 任务创建,销毁
+  description: client 任务, collect 任务 ,resource 上报,网关节点处理 , 任务创建,销毁
 
 - project: IAAS 平台维护
   company: "公众信息"

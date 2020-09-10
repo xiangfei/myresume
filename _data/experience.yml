@@ -3,7 +3,7 @@
 - company:  浙江公众信息
   position: 运维开发
   duration: 2018-07 &mdash; Now
-  summary: 维护公司的open stack, opennebula 环境. ,开发监控平台,自动化运维,自动化测试平台 <ul class="resume-item-list"><li>openstack opennebula 调整为高可用https://xiangfei.github.io/tags/openstack/</li><li>openstack vip bug修改(解决vip突然挂掉的问题)</li><li>kvm 优化,增加windows image</li><li>自动化运维平台微服务支持,增加服务注册,发现,配置下发,负载均衡</li><li>自动化测试平台开发,API, GUI ,spirent 设备接口,边缘节点设计</li><li>监控平台开发,动态下发任务,执行接口放入kafka</li><li>ruby 培训 https://xiangfei.github.io/ruby_traing/</li><li>安装hadoop hbase hive spark opentsdb https://xiangfei.github.io/tags/bigdata/ </li><li>监控组件teamwork开发</li></ul>
+  summary: 维护公司的open stack, opennebula 环境. ,开发监控平台,自动化运维,自动化测试平台 <ul class="resume-item-list"><li>openstack opennebula 调整为高可用https://xiangfei.github.io/tags/openstack/</li><li>openstack vip bug修改(解决vip突然挂掉的问题)</li><li>kvm 优化,增加windows image</li><li>自动化运维平台微服务支持,增加服务注册,发现,配置下发,负载均衡</li><li>自动化测试平台开发,API, GUI ,spirent 设备接口,边缘节点设计,执行调整</li><li>监控平台开发,动态下发任务,执行接口放入kafka</li><li>ruby 培训 https://xiangfei.github.io/ruby_traing/</li><li>安装hadoop hbase hive spark opentsdb https://xiangfei.github.io/tags/bigdata/ </li><li>监控组件teamwork开发维护</li></ul>
 
 # Director of Digital Stratgy
 - company: 金诚集团
