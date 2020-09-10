@@ -5,7 +5,7 @@
 
 # Communications strategy
 - skill: python / django
-  description: django 能够快速开发后端管理模块
+  description: django django_rest_framework 能够快速开发后端管理模块 , 熟悉django channels , celery
 
 # Digital content development and creation
 - skill: openstack / opennebula / k8s
@@ -15,4 +15,22 @@
   description: 安装维护，高可用
 
 - skill: vue
-  description: elm vue-admin-template 画出简单的页面
+  description: 能够基于 elm vue-admin-template开发
+
+- skill: hadoop/hbase/spark/hive/opentsdb
+  description: 高可用安装
+
+- skill: jenkins
+  description: 基于1.x版本,开发system groovy scripts
+
+- skill: ovs
+  description: 基于ovn 北向高可用,常用流表, 网络限速
+
+- skills: kvm/libvirt
+  description: io 限制, 优化
+
+- skills: ceph/iscsi
+  description: 高可用安装
+
+- skills: java
+  description: 毕业后做了3年开发,熟悉tomcat,jboss,ejb
