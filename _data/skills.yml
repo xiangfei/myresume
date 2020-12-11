@@ -1,5 +1,8 @@
 # Skills
 # Organizational leadership
+- skill: go / iris
+  description: 只使用2个月,主要用来改造转发服务。提高性能中心节点每秒处理9000+请求 
+
 - skill: ruby / rails
   description: 熟悉 ruby 元编程 ，rails 常见gem kaminari ,ransack , karafka , sidekiq , knock , actioncable
 

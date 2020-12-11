@@ -19,7 +19,7 @@
   company: "公众信息"
   role: 后台开发
   duration: 2019-07 &mdash; Now
-  description: client 任务, collect 任务 ,resource 上报,网关节点处理 , 任务创建,销毁
+  description: client 任务, collect 任务 ,resource 上报,网关节点处理 , 任务创建,销毁,中心边缘改造。
 
 - project: IAAS 平台维护
   company: "公众信息"
