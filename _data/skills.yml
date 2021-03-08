@@ -1,21 +1,21 @@
 # Skills
 # Organizational leadership
 - skill: go / iris
-  description: 只使用2个月,主要用来改造转发服务。提高性能中心节点每秒处理9000+请求 
+  description:  开发转发服务。提高性能中心节点每秒处理9000+请求, 基于iris的websocket, grpc 
 
 - skill: ruby / rails
   description: 熟悉 ruby 元编程 ，rails 常见gem kaminari ,ransack , karafka , sidekiq , knock , actioncable
 
 # Communications strategy
 - skill: python / django
-  description: django django_rest_framework 能够快速开发后端管理模块 , 熟悉django channels , celery
+  description: django django_rest_framework 能够快速开发后端管理模块 , 2 次开发 后台组件 , 熟悉django channels , celery
 
 # Digital content development and creation
 - skill: openstack / opennebula / k8s
-  description: 安装，高可用， 常见问题维护 
+  description: 安装，高可用， 常见问题维护  , 2次开发
 
 - skill: nginx/zabbix/mysql/neo4j/tomcat/kafka
-  description: 安装维护，高可用
+  description: 安装维护，高可用 
 
 - skill: vue
   description: 能够基于 elm vue-admin-template开发
@@ -24,7 +24,7 @@
   description: 高可用安装
 
 - skill: jenkins
-  description: 基于1.x版本,开发system groovy scripts
+  description: 基于1.x版本,开发system groovy scripts, 基于staper 的插件开发
 
 - skill: ovs
   description: 基于ovn 北向高可用,常用流表, 网络限速
@@ -33,7 +33,7 @@
   description: io 限制, 优化
 
 - skills: ceph/iscsi
-  description: 高可用安装
+  description: 高可用安装 
 
 - skills: java
   description: 毕业后做了3年开发,熟悉tomcat,jboss,ejb
