@@ -13,31 +13,31 @@
   company: "公众信息"
   role: 后台开发
   duration: 2018-07 &mdash; Now
-  description: 监控模块, 资源模块,任务系统开发。
+  description: 监控模块, 资源模块,任务系统, 日常发布 开发。
 
 - project: teamwork
   company: "公众信息"
   role: 后台开发
   duration: 2019-07 &mdash; Now
-  description: client 任务, collect 任务 ,resource 上报,网关节点处理 , 任务创建,销毁,中心边缘改造。
+  description: 主要实现任务下发, 数据监控 有以下组件 service(执行一次性任务) ,  collect(周期性任务), master(任务producer)   , alarm(处理告警) , notify(处理邮件) , charts(基本的报表查看) ,  border(边缘节点任务创建) , center(消息统一发到中心) , daemon(collect 检查) ,  主要思路 执行发到zookeeper , kafka 统一处理消息。 
 
 - project: IAAS 平台维护
-  company: "公众信息"
+  company: "公众信息"  
   role: 运维
   duration: 2018-02 &mdash; 2018-10
   description: 刚进公司的系统opesntack mitaka(网络ovs), opennebula 5.14.0(网络linux bridge), 网络是单节点,修改了网络的高可用,节点扩容,有4个compute node 扩容到11个compute node.  opennebula 增加ceph 存储配置,多套opennebula 环境整合。
      
 - project: 自动化发布系统
   company: "金城集团"
-  role: 前后端开发
+  role: 运维开发
   duration: 2018-03 &mdash; 2018-07
   description: 基于阿里云创建虚拟机,了解阿里云的计费策略,实现 K8S的项目部署.
 
 - project: 自动运维平台
   company: jollychic
-  role: 前后端开发
+  role: 运维工程师
   duration: 2018-03 &mdash; 2018-07
-  description: 底层IAAS搭建, 中间件维护。基于django 开发出一个web页面。实现配置文件修改,tomcat部署。部署日志查看,多环境配置维护
+  description: 底层IAAS搭建, 中间件维护。基于django 开发出一个web页面。实现配置文件修改,tomcat部署。部署日志查看,多环境配置维护, 发布流程管理(防止代码夹带) , 发布统计 
 
 
 
