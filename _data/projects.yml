@@ -2,24 +2,22 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: 测试自动化
-  company: "公众信息"
-  role: 前后台开发
-  duration: 2018-12 &mdash; 2020-09
-  description: V1 项目管理,服务管理,项目部署,web interface , seleniumcase , case管理,设备测试 , 用例执行,定时任务, V2 重构用例执行方式, 边缘节点设计,代理机器执行,消息中断处理。
-
 # Springfield Community Outreach Group
-- project: 自动化运维
-  company: "公众信息"
-  role: 后台开发
-  duration: 2018-07 &mdash; Now
-  description: 监控模块, 资源模块,任务系统, 日常发布 开发。
 
 - project: teamwork
   company: "公众信息"
-  role: 后台开发
+  role: golang开发
   duration: 2019-07 &mdash; Now
-  description: 主要实现任务下发, 数据监控 有以下组件 service(执行一次性任务) ,  collect(周期性任务), master(任务producer)   , alarm(处理告警) , notify(处理邮件) , charts(基本的报表查看) ,  border(边缘节点任务创建) , center(消息统一发到中心) , daemon(collect 检查) ,  主要思路 执行发到zookeeper , kafka 统一处理消息。 
+  description:  <li> 实现任务的自动下发,资源采集,告警,图表, 主要思路 执>行发到zookeeper , kafka 统一处理消息 业务全部在collect 组件</li><li>collect(基于go 开发 robfig/cron/v3 动态创建任务  go-zookeeper/zk 监听执行zk任务,  消息发送到border , 失败消息写入文件 统一处理) <li>  master(任务producer,可以多台部署,只有一个active , 其他的standby, 通过监听zk实现) </li> <li> charts(基本的报表查看, 多台部署无状态) </li> <li> border(go grpc client , 边缘节点任务创建, 消息同步到中心节点, 多台部署无状态 ) </li> <li> service (抢占任务,不区分执行机器) </li> <li> center( Shopify/sarama async producer 消息发送到kafka 多台部署无状态) </li> <li>  backend (go iris 后台rest 项目 , 任务创建, 报表查询, 权限管理, 日志查看, 部署管理) </li> <li> web (vue.js 前端页面)</li>
+
+- project: 自动化运维
+  company: "公众信息"
+  role: rails 开发
+  duration: 2018-07 &mdash; 2019-6
+  description: <li>监控模块, 资源模块,任务系统, 日常发布。</li> <li>旧项目,新项目换成teamwork</li>
+
+
+
 
 - project: IAAS 平台维护
   company: "公众信息"  
@@ -29,13 +27,13 @@
      
 - project: 自动化发布系统
   company: "金城集团"
-  role: 运维开发
+  role: python 运维开发
   duration: 2018-03 &mdash; 2018-07
   description: 基于阿里云创建虚拟机,了解阿里云的计费策略,实现 K8S的项目部署.
 
 - project: 自动运维平台
   company: jollychic
-  role: 运维工程师
+  role: python 运维工程师
   duration: 2018-03 &mdash; 2018-07
   description: 底层IAAS搭建, 中间件维护。基于django 开发出一个web页面。实现配置文件修改,tomcat部署。部署日志查看,多环境配置维护, 发布流程管理(防止代码夹带) , 发布统计 
 
