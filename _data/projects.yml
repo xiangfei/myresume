@@ -37,5 +37,21 @@
   duration: 2018-03 &mdash; 2018-07
   description: 底层IAAS搭建, 中间件维护。基于django 开发出一个web页面。实现配置文件修改,tomcat部署。部署日志查看,多环境配置维护, 发布流程管理(防止代码夹带) , 发布统计 
 
+- project: IAAS 自动化
+  company: 陆金所
+  role: python 运维开发
+  duration: 2016-09 &mdash; 2018-02
+  description: openstack mitaka, newton 搭建,  虚拟机创建自动化, cisco aci ,对接 
+
+- project: 工程化平台开发
+  company: 快钱支付
+  role: SCM
+  duration:  2016-03 &mdash; 2016-09
+  description: 上线工单管理, 代码管控, 灰度发布, 监控平台对接。
+- project: BTSSM
+  company: Nokia
+  role: SCM
+  duration: 2014-03 &mdash; 2016-02
+  description: 项目打包(分布式构建), 版本控制。jenkins 插件开发。 AWS集成, 构建优化。代码检查
 
 

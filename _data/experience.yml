@@ -3,7 +3,7 @@
 - company:  浙江公众信息
   position: 运维开发
   duration: 2018-07 &mdash; Now
-  summary: 维护公司的open stack, opennebula 环境. ,开发监控平台,自动化运维,自动化测试平台 <ul class="resume-item-list"><li>openstack opennebula 调整为高可用https://xiangfei.github.io/tags/openstack/</li><li>openstack vip bug修改(解决vip突然挂掉的问题)</li><li>kvm 优化,增加windows image</li><li>自动化运维平台微服务支持,增加服务注册,发现,配置下发,负载均衡</li><li>ruby 培训 https://xiangfei.github.io/ruby_traing/</li><li>安装hadoop hbase hive spark opentsdb https://xiangfei.github.io/tags/bigdata/ </li><li>kafka , zookeeper , redis 维护</li><li>teamwork开发</li></ul>
+  summary: 维护公司的open stack, opennebula 环境. ,开发监控平台,自动化运维,自动化测试平台 <ul class="resume-item-list"><li>openstack opennebula 调整为高可用https://xiangfei.github.io/tags/openstack/</li><li>openstack vip bug修改(解决vip突然挂掉的问题)</li><li>kvm 优化,增加windows image</li><li>自动化运维平台微服务支持,增加服务注册,发现,配置下发,负载均衡</li><li>ruby 培训 https://xiangfei.github.io/ruby_traing/</li><li>安装hadoop hbase hive spark opentsdb https://xiangfei.github.io/tags/bigdata/ </li><li>kafka , zookeeper , redis 维护</li><li>teamwork开发</li><li>teamwork 容器化监控(实现方式参考sensu go)</li></ul>
 
 # Director of Digital Stratgy
 - company: 金诚集团
@@ -18,20 +18,20 @@
 - company: jollychic
   position: 系统运维
   duration:   2017-04  &mdash; 2018-04
-  summary: 维护测试，预防环境，完善流程<ul class="resume-item-list"><li>日常发布</li><li>改进发布流程，一个应用部署一个虚拟机，增加并发测试支持</li><li>安装opennebula,公司资源不够，cpu ，内存overcommit ，disk ，网络io限速。虚拟机监控，权限调整。网络使用openvswitch vxlan 多租户网络隔离，解决网卡重启流表消失</li><li>写一个发版工具，主要思路登陆机器，直接执行shell脚本，权限直接使用django guardin，realtime data 使用celery</li><li>脚本优化，解决不同版本执行冲突</li><li>装k8s</li><li>kuryr-kubernetes集成 k8s和openstack，测试容器和虚拟机使用相同的网络（只在测试环境使用)</li><li>confd + zookeeper 配置文件统一管理</li></ul>
+  summary: 维护测试，预发环境，完善流程<ul class="resume-item-list"><li>日常发布</li><li>改进发布流程，一个应用部署一个虚拟机，增加并发测试支持</li><li>安装opennebula,公司资源不够，cpu ，内存overcommit ，disk ，网络io限速。虚拟机监控，权限调整。网络使用openvswitch vxlan 多租户网络隔离，解决网卡重启流表消失</li><li>写一个发版工具，主要思路登陆机器，直接执行shell脚本，权限直接使用django guardin，realtime data 使用celery</li><li>脚本优化，解决不同版本执行冲突</li><li>装k8s</li><li>kuryr-kubernetes集成 k8s和openstack，测试容器和虚拟机使用相同的网络（只在测试环境使用)</li><li>confd + zookeeper 配置文件统一管理</li></ul>
 
 
 
 
 
 - company: 陆金所
-  position: 运维开发
+  position: python运维开发
   duration:   2015-11  &mdash; 2017-03
-  summary: IAAS自动化平台开发， 容量平台开发， gtm开发  <ul class="resume-item-list"><li>安装openstack</li><li>责nova 模块。网络使用cisco aci</li><li>网络容量监控，对接solarwinds</li><li>cmdb开发</li><li>接f5，ip封堵</li></ul>
+  summary: IAAS自动化平台开发， 容量平台开发， gtm开发  <ul class="resume-item-list"><li>安装openstack</li><li>责nova 模块。网络使用cisco aci</li><li>网络容量监控，对接solarwinds</li><li>cmdb开发</li><li>接f5，ip封堵</li><li>django celery 统一的后台定时任务管理</li></ul>
 
 
 - company: 快钱支付
-  position: 运维开发
+  position: java运维开发
   duration:   2015-03  &mdash; 2015-11
   summary: 工程化平台（java 开发，使用springMVC + ibatis + jquery + freemarker） <ul class="resume-item-list"><li>日常发布值班</li><li>完善发布流程</li><li>docker部署应用</li><li>PL ，ITSM，JIRA， 测试平台对接 （PL轮询数据库， itsm，JIRA，测试使用webservice 主要用到xfire),使用zookeeper存储properties</li><li>加android 发布管理</li><li>监控发布状态</li><li>限管理，增加 跨部门权限申请，审批。</li></ul>
 
